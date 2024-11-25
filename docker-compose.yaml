@@ -1,0 +1,9 @@
+services:
+    node:
+        build:
+            context: .
+            dockerfile: docker/node/Dockerfile
+        volumes:
+            - .:/app
+        tty: true
+        command: sleep infinity
