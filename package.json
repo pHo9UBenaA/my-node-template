@@ -14,13 +14,15 @@
 		"@tsconfig/node24": "catalog:",
 		"@types/node": "catalog:",
 		"@typescript/native-preview": "catalog:",
+		"oxlint": "catalog:",
 		"typescript": "catalog:"
 	},
 	"license": "MIT",
 	"scripts": {
 		"format": "biome format --write .",
-		"lint": "biome lint --write .",
-		"check": "biome check --write .",
+		"check": "biome check .",
+		"lint": "oxlint --tsconfig ./tsconfig.json",
+		"lint:fix": "oxlint --tsconfig ./tsconfig.json --fix",
 		"typecheck": "tsgo",
 		"typecheck:tsc": "tsc --noEmit"
 	}

@@ -13,13 +13,7 @@
 		"indentStyle": "tab"
 	},
 	"linter": {
-		"enabled": true,
-		"rules": {
-			"recommended": true,
-			"style": {
-				"useAsConstAssertion": "error"
-			}
-		}
+		"enabled": false
 	},
 	"javascript": {
 		"formatter": {

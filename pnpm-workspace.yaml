@@ -3,6 +3,7 @@ catalog:
   '@tsconfig/node24': 24.0.1
   '@types/node': 24.6.2
   '@typescript/native-preview': 7.0.0-dev.20251002.1
+  oxlint: 1.19.0
   typescript: 5.9.3
 
 catalogMode: strict
