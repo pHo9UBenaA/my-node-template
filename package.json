@@ -5,13 +5,16 @@
 	"scripts": {
 		"format": "biome format --write .",
 		"lint": "biome lint --write .",
-		"check": "biome check --write ."
+		"check": "biome check --write .",
+		"typecheck": "tsgo",
+		"typecheck:tsc": "tsc --noEmit"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^1.9.4",
-		"@tsconfig/node23": "^23.0.0",
-		"@types/node": "latest",
-		"typescript": "^5.0.0"
+		"@biomejs/biome": "catalog:",
+		"@tsconfig/node24": "catalog:",
+		"@types/node": "catalog:",
+		"@typescript/native-preview": "catalog:",
+		"typescript": "catalog:"
 	},
 	"keywords": [],
 	"author": "Komiya",

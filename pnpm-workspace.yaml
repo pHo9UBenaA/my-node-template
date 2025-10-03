@@ -1,0 +1,28 @@
+catalog:
+  '@biomejs/biome': 2.2.5
+  '@tsconfig/node24': 24.0.1
+  '@types/node': 24.6.2
+  '@typescript/native-preview': 7.0.0-dev.20251002.1
+  typescript: 5.9.3
+
+catalogMode: strict
+
+cleanupUnusedCatalogs: true
+
+engineStrict: true
+
+linkWorkspacePackages: true
+
+minimumReleaseAge: 1440
+
+packageManagerStrictVersion: true
+
+preferWorkspacePackages: true
+
+resolutionMode: time-based
+
+savePrefix: ''
+
+strictDepBuilds: true
+
+strictPeerDependencies: true
