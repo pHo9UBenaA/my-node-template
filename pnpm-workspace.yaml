@@ -14,7 +14,7 @@ engineStrict: true
 
 linkWorkspacePackages: true
 
-minimumReleaseAge: 1440
+minimumReleaseAge: 10080
 
 packageManagerStrictVersion: true
 
