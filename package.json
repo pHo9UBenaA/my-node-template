@@ -2,13 +2,13 @@
 	"name": "my-node-template",
 	"version": "1.0.0",
 	"description": "",
-	"scripts": {
-		"format": "biome format --write .",
-		"lint": "biome lint --write .",
-		"check": "biome check --write .",
-		"typecheck": "tsgo",
-		"typecheck:tsc": "tsc --noEmit"
-	},
+	"keywords": [],
+	"author": "Komiya",
+	"contributors": [
+		"pHo9UBenaA <pho9ubenaa@gmail.com>"
+	],
+	"repository": {},
+	"dependencies": {},
 	"devDependencies": {
 		"@biomejs/biome": "catalog:",
 		"@tsconfig/node24": "catalog:",
@@ -16,11 +16,12 @@
 		"@typescript/native-preview": "catalog:",
 		"typescript": "catalog:"
 	},
-	"keywords": [],
-	"author": "Komiya",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/pHo9UBenaA/my-node-template"
-	},
-	"license": "MIT"
+	"license": "MIT",
+	"scripts": {
+		"format": "biome format --write .",
+		"lint": "biome lint --write .",
+		"check": "biome check --write .",
+		"typecheck": "tsgo",
+		"typecheck:tsc": "tsc --noEmit"
+	}
 }
